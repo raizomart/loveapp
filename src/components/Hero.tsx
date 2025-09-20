@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
       {/* Decorative elements */}
       <div className="absolute top-20 left-10 text-pink-300 text-6xl animate-bounce">💕</div>
       <div className="absolute top-40 right-16 text-purple-300 text-4xl animate-pulse">✨</div>
-      <div className="absolute bottom-32 left-20 text-rose-300 text-5xl animate-bounce" style={{animationDelay: '1s'}}>💖</div>
+      <div className="absolute bottom-32 left-20 text-rose-300 text-5xl animate-bounce" style={{animationDelay: '5s'}}>💖</div>
       <div className="absolute bottom-20 right-10 text-pink-400 text-3xl animate-pulse" style={{animationDelay: '2s'}}>🌟</div>
     </section>
   );
